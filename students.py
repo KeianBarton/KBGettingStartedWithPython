@@ -19,7 +19,7 @@ def add_student(name, student_id=1):
     students.append(student)
 
 
-def main():
+def main(args):
     while True:
         user_input = input("Would you like to add a student? (Y or N)\n")
         if user_input.upper() == 'N':
