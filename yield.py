@@ -10,6 +10,7 @@ def read_file():
     except Exception:
         print("Could not read file")
 
+
 def read_students(f):
     for line in f:
         yield line
