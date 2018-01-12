@@ -4,8 +4,7 @@ class Student:
     """
     school_name = "Example School"
 
-    def __init__(self, name):
+    def __init__(self, name, last_name, student_id):
         self.name = name
-
-    def __str__(self):
-        return self.name
+        self.last_name = last_name
+        self.student_id = student_id
